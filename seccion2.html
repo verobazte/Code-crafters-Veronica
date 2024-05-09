@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCrafters Store Servicios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stlyesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="icon" href="./logo/logo.png">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="menu container">
+            <a href="index.html" class="logo">
+                <img src="./logo/logo.png" alt="Logo de la tienda">
+            </a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="./images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="seccion2.html" class="active">Servicios</a></li>
+                    <li><a href="seccion3.html">Productos</a></li>
+                    <li><a href="seccion4.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="./images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </header>
+
+        <div class="serviciosection" id="seccionservicios">
+            <div class="serviciotitulo">
+                <h1>Nuestros Servicios</h1>
+            </div>
+            <div class="servicios">
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h2>Internet</h2>
+                    <p>Somos proveedores de servicios e instalación provisión de internet tanto a empresas como a usuarios particulares.</p>
+                    <a href="" class="serviciosboton">Leer más</a>
+                </div>
+
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h2>Reparación</h2>
+                    <p>Nuestros productos vendidos cuentan con garantía de venta, reparamos y solucionamos los problemas que nos presentan nuestros clientes.</p>
+                    <a href="" class="serviciosboton">Leer más</a>
+                </div>
+
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h2>Soporte Virtual</h2>
+                    <p>Realizamos soporte en línea en instalaciones o problemas que le surjan a los usuarios de los productos vendidos. Contamos con guardias y tratamos de responder las consultas a la brevedad.</p>
+                    <a href="" class="serviciosboton">Leer más</a>
+                </div>
+            </div>
+        </div>
+        
+    <section class="testimonios">
+            <div class="service-container">
+                <div class="section-testimonios">
+                    <h2 class="titulo">Opiniones</h2>
+                </div>
+                <div class="swiper testimonios-slider js-testimonios-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide testimonios-item">
+                            <div class="info">
+                                <img src="./testimoniosimage/img1.jpg" alt="imagen">
+                                <div class="text-box">
+                                    <h3 class="testname">Ana Martinez </h3>
+                                    <span class="job">Docente</span>
+                                </div>
+                            </div>
+                            <p>"Le regale a mi hijo una pc gaimmer y está muy contento con sus juegos"</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide testimonios-item">
+                            <div class="info">
+                                <img src="./testimoniosimage/img2.jpg" alt="imagen">
+                                <div class="text-box">
+                                    <h3 class="testname">Lucas Dall</h3>
+                                    <span class="job">Estudiante</span>
+                                </div>
+                            </div>
+                            <p>Necesitaba una pc para poder comenzar mis estudios de programación y Code-Crafters me aconsejó muy bien</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide testimonios-item">
+                            <div class="info">
+                                <img src="./testimoniosimage/img3.jpg" alt="imagen">
+                                <div class="text-box">
+                                    <h3 class="testname">Analía Fernández</h3>
+                                    <span class="job">Empresaria</span>
+                                </div>
+                            </div>
+                            <p>Necesitaba servicios tecnológicos para mi empresa y Code-Crafters me asesoró para lograr la mejor ecuación calidad-precio</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide testimonios-item">
+                            <div class="info">
+                                <img src="./testimoniosimage/img4.jpg" alt="imagen">
+                                <div class="text-box">
+                                    <h3 class="testname">Daniel López</h3>
+                                    <span class="job">web developer</span>
+                                </div>
+                            </div>
+                            <p>Soy desarrollador web, necesito un buen sevicio web y tecnología de primera, en Code-Crafters conseguí todo a buen precio</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide testimonios-item">
+                            <div class="info">
+                                <img src="./testimoniosimage/img5.jpg" alt="imagen">
+                                <div class="text-box">
+                                    <h3 class="testname">Micaela García</h3>
+                                    <span class="job">Estudiante</span>
+                                </div>
+                            </div>
+                            <p>Viajo todos los días en tren a la facu, en Code-Crafters me asesoraron en la compra de auriculares y una tablet qu uso todos los días</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination js-testimonios-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+        <footer class="footer">
+        
+            <div class="footer-content container">
+    
+                <div class="link">
+                    <h3>Nuestra Compañia</h3>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Nuestros servicios</a></li>
+                        <li><a href="#">Condiciónes</a></li>
+                        <li><a href="#">Afiliate</a></li>
+                    </ul>
+            
+                </div>
+    
+                <div class="link">
+                    <h3>Consultas</h3>
+                    <ul>
+                        <li><a href="#">Compras</a></li>
+                        <li><a href="#">Envios</a></li>
+                        <li><a href="#">Pago</a></li>
+                    </ul>
+    
+                </div>
+    
+                <div class="link">
+                    <h3>Tienda e-sports</h3>
+                    <ul>
+                        <li><a href="#">Remeras</a></li>
+                        <li><a href="#">Camperas</a></li>
+                        <li><a href="#">Buzos</a></li>
+                    </ul>
+    
+                </div>
+    
+                <div class="link">
+                    <h3>Siguenos</h3>
+                    <div class="social-link">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-x"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+    
+                </div>
+    
+            </div>
+    
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script2.js"></script>
+        </body>
+</html>

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCrafters Store Productos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="./logo/logo.png">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="menu container">
+            <a href="index.html" class="logo">
+                <img src="./logo/logo.png" alt="Logo de la tienda">
+            </a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="./images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="seccion2.html">Servicios</a></li>
+                    <li><a href="seccion3.html" class="active">Productos</a></li>
+                    <li><a href="seccion4.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="./images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </header>
+
+        <main class="main-content" id="lista-2">
+
+            <div class="container">
+
+                <div class="products-container">
+            
+                <div class="product" data-name="p-1" id="oferta1">
+                    <img src="./images3/images1.png" alt="">
+                    <h3>Placa de video geforce rtx 4060</h3>
+                    <div class="price original-price">$1.210.000</div>
+                    <div class="price oferta-price">$999.999</div>
+                </div>
+            
+                <div class="product" data-name="p-2">
+                    <img src="./images3/images2.png" alt="">
+                    <h3>Geforce gtx 1050ti</h3>
+                    <div class="price">$235.000</div>
+                </div>
+            
+                <div class="product" data-name="p-3">
+                    <img src="./images3/images3.png" alt="">
+                    <h3>asus amd radeon rx 6600 xt</h3>
+                    <div class="price">$126.000</div>
+                </div>
+            
+                <div class="product" data-name="p-4">
+                    <img src="./images3/images4.png" alt="">
+                    <h3>msi geforce gtx 1050ti gaming</h3>
+                    <div class="price">$203.230</div>
+                </div>
+            
+                <div class="product" data-name="p-5">
+                    <img src="./images3/images16.png" alt="">
+                    <h3>amd ryzen 5</h3>
+                    <div class="price">$316.230</div>
+                </div>
+            
+                <div class="product" data-name="p-6" id="oferta2">
+                    <img src="./images3/images7.png" alt="">
+                    <h3>RAM T-FORCE DELTA</h3>
+                    <div class="price original-price">$450.170</div>
+                    <div class="price oferta-price">$280.999</div>
+                </div>
+
+                <div class="product" data-name="p-6">
+                    <img src="./images3/images8.png" alt="">
+                    <h3>ram xlrb rgb</h3>
+                    <div class="price">$523.213</div>
+                </div>
+
+                <div class="product" data-name="p-6" id="oferta3">
+                    <img src="./images3/images9.png" alt="">
+                    <h3>fuente rgb delta 800w gold</h3>
+                    <div class="price original-price">$612.666</div>
+                    <div class="price oferta-price">$460.999</div>
+                </div>
+
+                <div class="product" data-name="p-6">
+                    <img src="./images3/images10.png" alt="">
+                    <h3>fuente evga 100 gq</h3>
+                    <div class="price">$615.268</div>
+                </div>
+
+                <div class="product" data-name="p-6">
+                    <img src="./images3/images11.png" alt="">
+                    <h3>fuente rgb gold edition 650w</h3>
+                    <div class="price">$322.355</div>
+                </div>
+
+                <div class="product" data-name="p-6">
+                    <img src="./images3/images12.png" alt="">
+                    <h3>ssd crucial 240</h3>
+                    <div class="price">$355.622</div>
+                </div>
+
+                <div class="product" data-name="p-6">
+                    <img src="./images3/images13.png" alt="">
+                    <h3>ssd pny m.2 express 1tb</h3>
+                    <div class="price">$121.320</div>
+                </div>
+
+                <div class="product" data-name="p-6">
+                    <img src="./images3/images14.png" alt="">
+                    <h3>ssd xlrb 1 tb m.2</h3>
+                    <div class="price">$123.456</div>
+                </div>
+            
+                <div class="product" data-name="p-6">
+                    <img src="./images3/images15.png" alt="">
+                    <h3>amd ryzen 7</h3>
+                    <div class="price">$352.625</div>
+                </div>
+                <div class="product" data-name="p-6">
+                    <img src="./images3/images17.png" alt="">
+                    <h3>intel core i9</h3>
+                    <div class="price">$152.320</div>
+                </div>
+
+                </div>
+            
+            </div>
+            
+            <div class="products-preview">
+            
+                <div class="preview" data-target="p-1">
+                <i class="fas fa-times"></i>
+                <img src="./images3/images1.png" alt="">
+                <h3>Placa de video geforce rtx 4060</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Ultima generación de placas de video.</p>
+                <div class="price">$1.210.000</div>
+                <div class="buttons">
+                    <a href="#" class="buy">Comprar</a>
+                    <a href="#" class="cart agregar-carrito">Carrito</a>
+                </div>
+                </div>
+            
+                <div class="preview" data-target="p-2">
+                <i class="fas fa-times"></i>
+                <img src="./images3/images2.png" alt="">
+                <h3>Geforce gtx 1050ti</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>N</p>
+                <div class="price">$235.000</div>
+                <div class="buttons">
+                    <a href="#" class="buy">Comprar</a>
+                    <a href="#" class="cart agregar-carrito">Carrito</a>
+                </div>
+                </div>
+            
+                <div class="preview" data-target="p-3">
+                <i class="fas fa-times"></i>
+                <img src="./images3/images3.png" alt="">
+                <h3>asus amd radeon rx 6600 xt</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Ultimas unidades disponibles</p>
+                <div class="price">$126.000</div>
+                <div class="buttons">
+                    <a href="#" class="buy">Comprar</a>
+                    <a href="#" class="cart agregar-carrito">Carrito</a>
+                </div>
+                </div>
+            
+                <div class="preview" data-target="p-4">
+                <i class="fas fa-times"></i>
+                <img src="./images3/images4.png" alt="">
+                <h3>msi geforce gtx 1050ti gaming</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Ultimas unidades disponibles</p>
+                <div class="price">$203.230</div>
+                <div class="buttons">
+                    <a href="#" class="buy">Comprar</a>
+                    <a href="#" class="cart agregar-carrito">Carrito</a>
+                </div>
+                </div>
+            
+                <div class="preview" data-target="p-5">
+                <i class="fas fa-times"></i>
+                <img src="./images3/images16.png" alt="">
+                <h3>amd ryzen 5</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Ultimas unidades disponibles</p>
+                <div class="price">$316.230</div>
+                <div class="buttons">
+                    <a href="#" class="buy">Comprar</a>
+                    <a href="#" class="cart agregar-carrito">Carrito</a>
+                </div>
+                </div>
+        
+                <div class="preview" data-target="p-6">
+                <i class="fas fa-times"></i>
+                <img src="./images3/images7.png" alt="">
+                <h3>ram t-force delta</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Ultimas unidades disponibles</p>
+                <div class="price">$232.169</div>
+                <div class="buttons">
+                    <a href="#" class="buy">Comprar</a>
+                    <a href="#" class="cart agregar-carrito">Carrito</a>
+                </div>
+                </div>
+
+                <div class="preview" data-target="p-7">
+                    <i class="fas fa-times"></i>
+                    <img src="./images3/images8.png" alt="">
+                    <h3>ram xlrb rgb</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>( 250 )</span>
+                    </div>
+                    <p>Ultimas unidades disponibles</p>
+                    <div class="price">523.213</div>
+                    <div class="buttons">
+                        <a href="#" class="buy">Comprar</a>
+                        <a href="#" class="cart agregar-carrito">Carrito</a>
+                    </div>
+                    </div>
+
+                <div class="preview" data-target="p-8">
+                    <i class="fas fa-times"></i>
+                    <img src="./images3/images9.png" alt="">
+                    <h3>fuente rgb delta 800w gold</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>( 250 )</span>
+                    </div>
+                    <p>Ultimas unidades disponibles</p>
+                    <div class="price">$612.666</div>
+                    <div class="buttons">
+                        <a href="#" class="buy">Comprar</a>
+                        <a href="#" class="cart agregar-carrito">Carrito</a>
+                    </div>
+                    </div>
+
+                <div class="preview" data-target="p-9">
+                    <i class="fas fa-times"></i>
+                    <img src="./images3/images10.png" alt="">
+                    <h3>fuente evga 100 gq</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>( 250 )</span>
+                    </div>
+                    <p>Ultimas unidades disponibles</p>
+                    <div class="price">$615.268</div>
+                    <div class="buttons">
+                        <a href="#" class="buy">Comprar</a>
+                        <a href="#" class="cart agregar-carrito">Carrito</a>
+                    </div>
+                    </div>
+
+            <div class="preview" data-target="p-10">
+                    <i class="fas fa-times"></i>
+                    <img src="./images3/images11.png" alt="">
+                    <h3>fuente rgb gold edition 650w</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>( 250 )</span>
+                    </div>
+                    <p>Ultimas unidades disponibles</p>
+                    <div class="price">$322.355</div>
+                    <div class="buttons">
+                        <a href="#" class="buy">Comprar</a>
+                        <a href="#" class="cart agregar-carrito">Carrito</a>
+                    </div>
+                    </div>
+
+                    <div class="preview" data-target="p-11">
+                    <i class="fas fa-times"></i>
+                    <img src="./images3/images12.png" alt="">
+                    <h3>ssd crucial 240</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>( 250 )</span>
+                    </div>
+                    <p>Ultimas unidades disponibles</p>
+                    <div class="price">$355.622</div>
+                    <div class="buttons">
+                        <a href="#" class="buy">Comprar</a>
+                        <a href="#" class="cart agregar-carrito">Carrito</a>
+                    </div>
+                    </div>
+
+                    <div class="preview" data-target="p-12">
+                    <i class="fas fa-times"></i>
+                    <img src="./images3/images13.png" alt="">
+                    <h3>ssd pny m.2 express 1tb</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>( 250 )</span>
+                    </div>
+                    <p>Ultimas unidades disponibles</p>
+                    <div class="price">$121.320</div>
+                    <div class="buttons">
+                        <a href="#" class="buy">Comprar</a>
+                        <a href="#" class="cart agregar-carrito">Carrito</a>
+                    </div>
+                    </div>
+
+                    <div class="preview" data-target="p-13">
+                    <i class="fas fa-times"></i>
+                    <img src="./images3/images14.png" alt="">
+                    <h3>ssd xlrb 1tb m.2</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>( 250 )</span>
+                    </div>
+                    <p>Ultimas unidades disponibles</p>
+                    <div class="price">$123.456</div>
+                    <div class="buttons">
+                        <a href="#" class="buy">Comprar</a>
+                        <a href="#" class="cart agregar-carrito">Carrito</a>
+                    </div>
+                    </div>
+
+                    <div class="preview" data-target="p-14">
+                    <i class="fas fa-times"></i>
+                    <img src="./images3/images15.png" alt="">
+                    <h3>amd ryzen 7</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>( 250 )</span>
+                    </div>
+                    <p>Ultimas unidades disponibles</p>
+                    <div class="price">$352.625</div>
+                    <div class="buttons">
+                        <a href="#" class="buy">Comprar</a>
+                        <a href="#" class="cart agregar-carrito">Carrito</a>
+                    </div>
+                    </div>
+
+                    <div class="preview" data-target="p-15">
+                    <i class="fas fa-times"></i>
+                    <img src="./images3/images17.png" alt="">
+                    <h3>intel core i9</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>( 250 )</span>
+                    </div>
+                    <p>Ultimas unidades disponibles</p>
+                    <div class="price">$152.320</div>
+                    <div class="buttons">
+                        <a href="#" class="buy">Comprar</a>
+                        <a href="#" class="cart agregar-carrito">Carrito</a>
+                    </div>
+                    </div>
+                
+            </div>
+            
+        </main>
+
+        <footer class="footer">
+        
+            <div class="footer-content container">
+    
+                <div class="link">
+                    <h3>Nuestra Compañia</h3>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Nuestros servicios</a></li>
+                        <li><a href="#">Condiciónes</a></li>
+                        <li><a href="#">Afiliate</a></li>
+                    </ul>
+            
+                </div>
+    
+                <div class="link">
+                    <h3>Consultas</h3>
+                    <ul>
+                        <li><a href="#">Compras</a></li>
+                        <li><a href="#">Envios</a></li>
+                        <li><a href="#">Pago</a></li>
+                    </ul>
+    
+                </div>
+    
+                <div class="link">
+                    <h3>Tienda e-sports</h3>
+                    <ul>
+                        <li><a href="#">Remeras</a></li>
+                        <li><a href="#">Camperas</a></li>
+                        <li><a href="#">Buzos</a></li>
+                    </ul>
+    
+                </div>
+    
+                <div class="link">
+                    <h3>Siguenos</h3>
+                    <div class="social-link">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-x"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+    
+                </div>
+    
+            </div>
+    
+        </footer>
+
+        <script src="script3.js"></script>
+        </body>
+</html>

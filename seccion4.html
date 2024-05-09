@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCrafters Store Contacto</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="style4.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="icon" href="./logo/logo.png">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="menu container">
+            <a href="index.html" class="logo">
+                <img src="./logo/logo.png" alt="Logo de la tienda">
+            </a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="./images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="seccion2.html">Servicios</a></li>
+                    <li><a href="seccion3.html">Productos</a></li>
+                    <li><a href="seccion4.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="./images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </header>
+
+        <main class="cuerpo">
+        <div class="contenidocontacto">
+
+            <h1 class="logo">Dejanos <span>Tu Pregunta</span></h1>
+    
+            <div class="contact-wrapper animated bounceInUp">
+                <div class="contact-form">
+                    <h3>Contáctanos</h3>
+                    <form action="#">
+                        <p>
+                            <label>Nombre</label>
+                            <input type="text" name="fullname" required>
+                        </p>
+                        <p>
+                            <label>Email</label>
+                            <input type="email" name="email" required>
+                        </p>
+                        <p>
+                            <label>Celular</label>
+                            <input type="tel" name="phone" required>
+                        </p>
+                        <p>
+                            <label>Asunto</label>
+                            <input type="text" name="affair" required>
+                        </p>
+                        <p class="block">
+                        <label>Mensaje</label> 
+                            <textarea name="message" rows="3"></textarea>
+                        </p>
+                        <p class="block">
+                            <button>
+                                Enviar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h4>Mas información</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Buenos Aires</li>
+                        <li><i class="fas fa-phone"></i> (444) 444 444 444</li>
+                        <li><i class="fas fa-envelope-open-text"></i> codecrafters@website.com</li>
+                    </ul>
+                    <p>En breve responderemos tu consulta</p>
+                    <p>CodeCrafters.com</p>
+                </div>
+            </div>
+        </div>
+        </main>
+
+        <footer class="footer">
+        
+            <div class="footer-content container">
+    
+                <div class="link">
+                    <h3>Nuestra Compañia</h3>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Nuestros servicios</a></li>
+                        <li><a href="#">Condiciónes</a></li>
+                        <li><a href="#">Afiliate</a></li>
+                    </ul>
+            
+                </div>
+    
+                <div class="link">
+                    <h3>Consultas</h3>
+                    <ul>
+                        <li><a href="#">Compras</a></li>
+                        <li><a href="#">Envios</a></li>
+                        <li><a href="#">Pago</a></li>
+                    </ul>
+    
+                </div>
+    
+                <div class="link">
+                    <h3>Tienda e-sports</h3>
+                    <ul>
+                        <li><a href="#">Remeras</a></li>
+                        <li><a href="#">Camperas</a></li>
+                        <li><a href="#">Buzos</a></li>
+                    </ul>
+    
+                </div>
+    
+                <div class="link">
+                    <h3>Siguenos</h3>
+                    <div class="social-link">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-x"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+    
+                </div>
+    
+            </div>
+    
+        </footer>
+
+        </body>
+</html>
